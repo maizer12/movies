@@ -1,0 +1,33 @@
+.st0 {
+	fill: none;
+}
+.socials{
+	display: flex;
+	align-items: center;
+	column-gap: 20px;
+	&__item{
+		width: 60px;
+		height: 60px;
+		border: #A8A8A8 1px solid;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 50%;
+		transition: 0.4s;
+		svg{
+			width: 40px;
+			path{
+				fill:#A8A8A8;
+				transition: 0.4s;
+			}
+		}
+		&:hover{
+			svg{
+				path{
+					fill:#81becb;
+				}
+			}
+			border-color: #81becb;
+		}
+	}
+}

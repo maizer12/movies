@@ -1,0 +1,24 @@
+.login-input {
+	max-width: 340px;
+	width: 100%;
+	&__name {
+		margin-bottom: 7px;
+	}
+	&__input {
+		background-color: rgba(#fff, 0.4);
+		width: 100%;
+		display: block;
+		padding: 10px;
+		border: 1px #dddcdc solid;
+		&::placeholder {
+			color: #fff;
+			opacity: 0.7;
+			transition: 0.7s;
+		}
+		&:focus {
+			&::placeholder {
+				transform: translate(-100%);
+			}
+		}
+	}
+}

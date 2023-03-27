@@ -1,0 +1,19 @@
+.button-search{
+	position: absolute;
+	bottom: 50%;
+	transform: translateY(50%);
+	right: 35px;
+	background: none;
+	svg{
+		path{
+			transition: 0.7s;
+		}
+	}
+	&:hover{
+		svg{
+			path{
+				fill: #81becb;
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+.home {
+	padding: 30px 0 118px;
+	&__inner{
+		display: flex;
+		justify-content: space-between;
+		column-gap: 30px;
+	}
+	&__content{
+		max-width: 1343px;
+	}
+	&__moves{
+		display: flex;
+		flex-direction: column;
+		row-gap: 60px;
+		padding: 80px 0;
+	}
+	&__colum{
+		display: flex;
+		row-gap: 172px;
+		flex-direction: column;
+	}
+}
+// .sidebar{
+// 	position: sticky;
+//   top: 0;
+//   justify-content: flex-start;
+// 	height: 100%;
+// }

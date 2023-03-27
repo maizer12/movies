@@ -1,0 +1,13 @@
+.button-login{
+	max-width: 200px;
+	width: 100%;
+	text-align: center;
+	padding: 13px;
+	border:2px solid #252A2C;
+	background-color: #1B1E1E;
+	transition: 0.4s;
+	&:hover{
+		border-color: #fff;
+		transform: translate(-3px, -3px);
+	}
+}

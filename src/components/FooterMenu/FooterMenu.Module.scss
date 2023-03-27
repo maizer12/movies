@@ -1,0 +1,18 @@
+.footer-menu {
+	h6 {
+		margin-bottom: 10px;
+		font-weight: 700;
+	}
+	&__item {
+		display: block;
+		color: #a8a8a8;
+		margin-bottom: 5px;
+		transition: 0.4s;
+		&:hover {
+			color: #81becb;
+		}
+	}
+	.menu-item-active {
+		color: #81becb;
+	}
+}

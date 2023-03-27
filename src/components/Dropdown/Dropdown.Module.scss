@@ -1,0 +1,35 @@
+.dropdown {
+	transition: 0.4s;
+	padding: 10px 20px;
+	position: absolute;
+	top: 40px;
+	background-color: rgba(#1c1d1f, 0.5);
+	border: 1px solid #2b2b2b;
+	display: flex;
+	flex-direction: column;
+	width: 210px;
+	transform: scale(0);
+	z-index: 10;
+	&__item {
+		display: block;
+		font-family: Roboto;
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 1.5;
+		letter-spacing: 0px;
+		text-align: left;
+		color: #fff;
+		transition: 0.4s;
+		&:hover {
+			color: #81becb;
+		}
+	}
+}
+.menu-item-active {
+	.dropdown {
+		transform:  scale(1);
+	}
+}
+.dropdown-item-active{
+	color: #81becb;
+}

@@ -1,0 +1,28 @@
+.menu-item {
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.2;
+	letter-spacing: 0px;
+	text-align: center;
+	color: #fff;
+	transition: 0.4s;
+	display: flex;
+	align-items: center;
+	column-gap: 5px;
+	position: relative;
+	background: none;
+	&:hover {
+		color: #81becb;
+	}
+	&__arrow {
+		transition: 0.6s;
+		transform: rotate(180deg);
+	}
+}
+.menu-item-active{
+	color: #81becb;
+	.menu-item__arrow{
+		transform: rotate(0deg);
+	}
+}

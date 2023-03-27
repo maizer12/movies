@@ -1,0 +1,30 @@
+.footer{
+	background-color: #323232;
+	padding-top: 32px;
+	&__columns{
+		display: flex;
+		justify-content: space-between;
+	}
+}
+.footer-colum{
+	max-width: 971px;
+	padding-left: 124px;
+	position: relative;
+	&__name{
+		font-weight: 700;
+		margin-bottom: 12px;
+	}
+	&__text{
+		color: #A8A8A8;
+	}
+	&::after{
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		background-color: #A8A8A8;
+		width: 1px;
+		height: 55%;
+	}
+}

@@ -1,0 +1,19 @@
+.header {
+	background: radial-gradient(696.2% 730.65% at 47.6% 26.27%, #181A19 0%, #24282B 68.62%),
+linear-gradient(90deg, #212323 0%, #252D30 34.9%, #1B2121 100%);
+
+	border-bottom: 2px solid;
+	padding: 19px 0;
+	border-image-source: linear-gradient(
+		90deg,
+		#212323 0%,
+		#252d30 34.9%,
+		#1b2121 100%
+	);
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		column-gap:30px;
+	}
+}
